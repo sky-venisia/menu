@@ -1,0 +1,20 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4rem;
+  width: 100%;
+  z-index: 10;
+  mix-blend-mode: difference;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchButton {
+  width: 2rem;
+  height: 2rem;
+}

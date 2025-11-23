@@ -1,0 +1,22 @@
+.hero {
+  color: black;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.container {
+  display: grid;
+  gap: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 48rem) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

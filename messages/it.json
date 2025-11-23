@@ -1,0 +1,268 @@
+{
+  "heading": "Benvenuto a Sky Venisia",
+  "menu": [
+    {
+      "category": "entrees",
+      "displayName": "Antipasto",
+      "id": 0,
+      "name": "Zuppa Marocchina",
+      "description": "Harira tradizionale con pomodori, lenticchie e spezie.",
+      "image": "/1.jpg",
+      "price": 60
+    },
+    {
+      "category": "entrees",
+      "displayName": "Antipasto",
+      "id": 1,
+      "name": "Tabbouleh",
+      "description": "Insalata fresca con prezzemolo, bulgur, limone e olio d'oliva.",
+      "image": "/2.jpg",
+      "price": 70
+    },
+    {
+      "category": "entrees",
+      "displayName": "Antipasto",
+      "id": 2,
+      "name": "Insalata Taktouka",
+      "description": "Insalata marocchina a base di peperoni grigliati, pomodori e aglio.",
+      "image": "/3.jpg",
+      "price": 70
+    },
+    {
+      "category": "entrees",
+      "displayName": "Antipasto",
+      "id": 3,
+      "name": "Insalata Caesar",
+      "description": "Lattuga croccante, parmigiano, crostini e salsa Caesar.",
+      "image": "/4.jpg",
+      "price": 75
+    },
+    {
+      "category": "entrees",
+      "displayName": "Antipasto",
+      "id": 4,
+      "name": "Insalata Niçoise",
+      "description": "Insalata classica con tonno, uova, patate e olive.",
+      "image": "/5.jpg",
+      "price": 75
+    },
+    {
+      "category": "entrees",
+      "displayName": "Antipasto",
+      "id": 5,
+      "name": "Gamberi Pil-Pil",
+      "description": "Gamberi saltati con aglio, peperoncino e olio d'oliva.",
+      "image": "/6.jpg",
+      "price": 90
+    },
+    {
+      "category": "entrees",
+      "displayName": "Antipasto",
+      "id": 6,
+      "name": "Pomodoro e Mozzarella",
+      "description": "Pomodoro fresco e mozzarella con basilico e olio d'oliva.",
+      "image": "/7.jpeg",
+      "price": 80
+    },
+    {
+      "category": "entrees",
+      "displayName": "Antipasto",
+      "id": 7,
+      "name": "Insalata Vigneronne (Specialità)",
+      "description": "Insalata della casa con vinaigrette delicata e sapori fruttati.",
+      "image": "/8.jpg",
+      "price": 110
+    },
+    {
+      "category": "entrees",
+      "displayName": "Antipasto",
+      "id": 8,
+      "name": "Insalata di Avocado e Gamberi",
+      "description": "Avocado cremoso servito con gamberi freschi.",
+      "image": "/9.jpg",
+      "price": 110
+    },
+    {
+      "category": "entrees",
+      "displayName": "Antipasto",
+      "id": 9,
+      "name": "Insalata di Manzo",
+      "description": "Specialità della casa con vinaigrette al miele.",
+      "image": "/10.webp",
+      "price": 120
+    },
+    {
+      "category": "entrees",
+      "displayName": "Antipasto",
+      "id": 10,
+      "name": "Insalata di Salmone Affumicato",
+      "description": "Insalata guarnita con fette di salmone affumicato.",
+      "image": "/11.jpg",
+      "price": 120
+    },
+
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Piatti Marocchini",
+      "id": 11,
+      "name": "Tajine Vegetariano",
+      "description": "Verdure stufate con spezie marocchine.",
+      "image": "/12.jpg",
+      "price": 100
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Piatti Marocchini",
+      "id": 12,
+      "name": "Pastilla al Pollo",
+      "description": "Sfoglia tradizionale ripiena di pollo e mandorle.",
+      "image": "/13.jpg",
+      "price": 120
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Piatti Marocchini",
+      "id": 13,
+      "name": "Pastilla ai Frutti di Mare",
+      "description": "Pasta croccante ripiena con un mix di frutti di mare.",
+      "image": "/14.webp",
+      "price": 140
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Piatti Marocchini",
+      "id": 14,
+      "name": "Couscous Vegetariano",
+      "description": "Couscous servito con 7 verdure.",
+      "image": "/15.jpg",
+      "price": 130
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Piatti Marocchini",
+      "id": 15,
+      "name": "Couscous con Pollo",
+      "description": "Couscous con pollo accompagnato da 7 verdure.",
+      "image": "/16.avif",
+      "price": 140
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Piatti Marocchini",
+      "id": 16,
+      "name": "Couscous con Manzo",
+      "description": "Couscous con manzo e 7 verdure.",
+      "image": "/17.jpeg",
+      "price": 150
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Piatti Marocchini",
+      "id": 17,
+      "name": "Tajine di Pollo al Limone",
+      "description": "Pollo stufato con limoni sotto sale e olive.",
+      "image": "/18.png",
+      "price": 150
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Piatti Marocchini",
+      "id": 18,
+      "name": "Tanjia",
+      "description": "Specialità di Marrakech: carne cotta lentamente.",
+      "image": "/19.jpeg",
+      "price": 170
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Piatti Marocchini",
+      "id": 19,
+      "name": "Tajine di Manzo con Prugne",
+      "description": "Manzo tenero cotto con prugne e spezie dolci-salate.",
+      "image": "/20.webp",
+      "price": 180
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Piatti Marocchini",
+      "id": 20,
+      "name": "Couscous Reale",
+      "description": "Couscous con 7 verdure e 7 carni.",
+      "image": "/21.webp",
+      "price": 180
+    },
+
+    {
+      "category": "international",
+      "displayName": "Internazionale",
+      "id": 21,
+      "name": "Straccetti di Pollo con Funghi",
+      "description": "Pollo tagliato a strisce in una salsa cremosa ai funghi.",
+      "image": "/21.webp",
+      "price": 120
+    },
+    {
+      "category": "international",
+      "displayName": "Internazionale",
+      "id": 22,
+      "name": "Scaloppina di Pollo",
+      "description": "Scaloppina impanata servita con contorno.",
+      "image": "/21.webp",
+      "price": 120
+    },
+    {
+      "category": "international",
+      "displayName": "Internazionale",
+      "id": 23,
+      "name": "Wok di Pollo",
+      "description": "Pollo saltato con verdure e sapori asiatici.",
+      "image": "/21.webp",
+      "price": 125
+    },
+    {
+      "category": "international",
+      "displayName": "Internazionale",
+      "id": 24,
+      "name": "Straccetti di Manzo",
+      "description": "Manzo tagliato a strisce saltato in una salsa saporita.",
+      "image": "/21.webp",
+      "price": 130
+    },
+    {
+      "category": "international",
+      "displayName": "Internazionale",
+      "id": 25,
+      "name": "Wok di Manzo",
+      "description": "Manzo saltato con verdure e spezie asiatiche.",
+      "image": "/21.webp",
+      "price": 135
+    },
+    {
+      "category": "international",
+      "displayName": "Internazionale",
+      "id": 26,
+      "name": "Piatto Asiatico",
+      "description": "Assortimento di specialità di ispirazione asiatica.",
+      "image": "/21.webp",
+      "price": 180
+    },
+    {
+      "category": "international",
+      "displayName": "Internazionale",
+      "id": 27,
+      "name": "Tagliatelle al Salmone",
+      "description": "Tagliatelle cremose al salmone.",
+      "image": "/21.webp",
+      "price": 180
+    },
+    {
+      "category": "international",
+      "displayName": "Internazionale",
+      "id": 28,
+      "name": "Filetto di Manzo",
+      "description": "Filetto di manzo tenero, grigliato secondo la cottura desiderata.",
+      "image": "/21.webp",
+      "price": 180
+    }
+  ]
+}

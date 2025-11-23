@@ -1,0 +1,268 @@
+{
+  "heading": "Bienvenue au Sky Venisia",
+  "menu": [
+    {
+      "category": "entrees",
+      "displayName": "Entrée",
+      "id": 0,
+      "name": "Soupe Marocaine",
+      "description": "Harira traditionnelle aux tomates, lentilles et épices.",
+      "image": "/1.jpg",
+      "price": 60
+    },
+    {
+      "category": "entrees",
+      "displayName": "Entrée",
+      "id": 1,
+      "name": "Taboulé",
+      "description": "Salade fraîche au persil, boulgour, citron et huile d’olive.",
+      "image": "/2.jpg",
+      "price": 70
+    },
+    {
+      "category": "entrees",
+      "displayName": "Entrée",
+      "id": 2,
+      "name": "Salade Taktouka",
+      "description": "Salade marocaine à base de poivrons grillés, tomates et ail.",
+      "image": "/3.jpg",
+      "price": 70
+    },
+    {
+      "category": "entrees",
+      "displayName": "Entrée",
+      "id": 3,
+      "name": "Salade César",
+      "description": "Laitue croquante, parmesan, croûtons et sauce César.",
+      "image": "/4.jpg",
+      "price": 75
+    },
+    {
+      "category": "entrees",
+      "displayName": "Entrée",
+      "id": 4,
+      "name": "Salade Niçoise",
+      "description": "Salade classique au thon, œufs, pommes de terre et olives.",
+      "image": "/5.jpg",
+      "price": 75
+    },
+    {
+      "category": "entrees",
+      "displayName": "Entrée",
+      "id": 5,
+      "name": "Crevettes Pil-Pil",
+      "description": "Crevettes sautées à l’ail, piment et huile d’olive.",
+      "image": "/6.jpg",
+      "price": 90
+    },
+    {
+      "category": "entrees",
+      "displayName": "Entrée",
+      "id": 6,
+      "name": "Tomate Mozzarella",
+      "description": "Tomate fraîche et mozzarella, basilic et huile d’olive.",
+      "image": "/7.jpeg",
+      "price": 80
+    },
+    {
+      "category": "entrees",
+      "displayName": "Entrée",
+      "id": 7,
+      "name": "Salade Vigneronne (Spécialité)",
+      "description": "Salade maison avec vinaigrette douce et saveurs fruitées.",
+      "image": "/8.jpg",
+      "price": 110
+    },
+    {
+      "category": "entrees",
+      "displayName": "Entrée",
+      "id": 8,
+      "name": "Salade Avocat Crevettes",
+      "description": "Avocat crémeux accompagné de crevettes fraîches.",
+      "image": "/9.jpg",
+      "price": 110
+    },
+    {
+      "category": "entrees",
+      "displayName": "Entrée",
+      "id": 9,
+      "name": "Salade de Bœuf",
+      "description": "Spécialité maison avec vinaigrette au miel.",
+      "image": "/10.webp",
+      "price": 120
+    },
+    {
+      "category": "entrees",
+      "displayName": "Entrée",
+      "id": 10,
+      "name": "Salade de Saumon Fumé",
+      "description": "Salade garnie de tranches de saumon fumé.",
+      "image": "/11.jpg",
+      "price": 120
+    },
+
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Plats Marocains",
+      "id": 11,
+      "name": "Tajine Végétarien",
+      "description": "Légumes mijotés aux épices marocaines.",
+      "image": "/12.jpg",
+      "price": 100
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Plats Marocains",
+      "id": 12,
+      "name": "Pastilla au Poulet",
+      "description": "Feuilleté traditionnel garni de poulet et d’amandes.",
+      "image": "/13.jpg",
+      "price": 120
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Plats Marocains",
+      "id": 13,
+      "name": "Pastilla aux Fruits de Mer",
+      "description": "Pâte croustillante garnie d’un mélange de fruits de mer.",
+      "image": "/14.webp",
+      "price": 140
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Plats Marocains",
+      "id": 14,
+      "name": "Couscous Végétarien",
+      "description": "Couscous servi avec 7 légumes.",
+      "image": "/15.jpg",
+      "price": 130
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Plats Marocains",
+      "id": 15,
+      "name": "Couscous au Poulet",
+      "description": "Couscous au poulet accompagné de 7 légumes.",
+      "image": "/16.avif",
+      "price": 140
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Plats Marocains",
+      "id": 16,
+      "name": "Couscous au Bœuf",
+      "description": "Couscous au bœuf et 7 légumes.",
+      "image": "/17.jpeg",
+      "price": 150
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Plats Marocains",
+      "id": 17,
+      "name": "Tajine Poulet Citron",
+      "description": "Poulet mijoté aux citrons confits et olives.",
+      "image": "/18.png",
+      "price": 150
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Plats Marocains",
+      "id": 18,
+      "name": "Tanjia",
+      "description": "Spécialité de Marrakech : viande mijotée lentement.",
+      "image": "/19.jpeg",
+      "price": 170
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Plats Marocains",
+      "id": 19,
+      "name": "Tajine de Bœuf aux Pruneaux",
+      "description": "Bœuf tendre cuit avec pruneaux et épices sucrées-salées.",
+      "image": "/20.webp",
+      "price": 180
+    },
+    {
+      "category": "les-plats-marocain",
+      "displayName": "Plats Marocains",
+      "id": 20,
+      "name": "Couscous Royal",
+      "description": "Couscous aux 7 légumes et 7 viandes.",
+      "image": "/21.webp",
+      "price": 180
+    },
+
+    {
+      "category": "international",
+      "displayName": "International",
+      "id": 21,
+      "name": "Émincé de Poulet aux Champignons",
+      "description": "Poulet émincé dans une sauce crémeuse aux champignons.",
+      "image": "/21.webp",
+      "price": 120
+    },
+    {
+      "category": "international",
+      "displayName": "International",
+      "id": 22,
+      "name": "Escalope de Poulet",
+      "description": "Escalope panée servie avec accompagnement.",
+      "image": "/21.webp",
+      "price": 120
+    },
+    {
+      "category": "international",
+      "displayName": "International",
+      "id": 23,
+      "name": "Wok de Poulet",
+      "description": "Poulet sauté aux légumes et saveurs asiatiques.",
+      "image": "/21.webp",
+      "price": 125
+    },
+    {
+      "category": "international",
+      "displayName": "International",
+      "id": 24,
+      "name": "Émincé de Bœuf",
+      "description": "Bœuf émincé sauté dans une sauce savoureuse.",
+      "image": "/21.webp",
+      "price": 130
+    },
+    {
+      "category": "international",
+      "displayName": "International",
+      "id": 25,
+      "name": "Wok de Bœuf",
+      "description": "Bœuf sauté avec légumes et épices asiatiques.",
+      "image": "/21.webp",
+      "price": 135
+    },
+    {
+      "category": "international",
+      "displayName": "International",
+      "id": 26,
+      "name": "Assiette Asiatique",
+      "description": "Assortiment de spécialités d’inspiration asiatique.",
+      "image": "/21.webp",
+      "price": 180
+    },
+    {
+      "category": "international",
+      "displayName": "International",
+      "id": 27,
+      "name": "Tagliatelles au Saumon",
+      "description": "Tagliatelles crémeuses au saumon.",
+      "image": "/21.webp",
+      "price": 180
+    },
+    {
+      "category": "international",
+      "displayName": "International",
+      "id": 28,
+      "name": "Filet de Bœuf",
+      "description": "Filet de bœuf tendre, grillé selon votre cuisson.",
+      "image": "/21.webp",
+      "price": 180
+    }
+  ]
+}

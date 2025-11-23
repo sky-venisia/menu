@@ -1,0 +1,57 @@
+.media {
+  position: relative;
+  height: 15rem;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  overflow: clip;
+}
+
+.mediaImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.details {
+  margin-top: 1rem;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.875rem;
+  background: linear-gradient(90deg, #bfa308, #3f3301);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* Safari + modern browsers */
+}
+
+.price {
+  display: inline-flex; /* keeps both elements on same visual line */
+  align-items: flex-start;
+
+  font-weight: 700;
+  font-size: 1.25rem;
+  background: linear-gradient(90deg, #bfa308, #002300, #bfa308);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* Safari + modern browsers */
+}
+
+.priceAmount {
+  font-size: 2.5rem; /* big number */
+  font-weight: 700;
+  line-height: 1;
+}
+
+.priceCurrency {
+  font-size: 0.75em; /* always 75% of the amount */
+  line-height: 1;
+}

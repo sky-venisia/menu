@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Roslindale Display Condensed';
+  src:
+    url('./RoslindaleDisplayCondensed-Regular.woff2') format('woff2'),
+    url('./RoslindaleDisplayCondensed-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roslindale Display Condensed';
+  src:
+    url('./RoslindaleDisplayCondensed-Medium.woff2') format('woff2'),
+    url('./RoslindaleDisplayCondensed-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roslindale Display Condensed';
+  src:
+    url('./RoslindaleDisplayCondensed-SemiBold.woff2') format('woff2'),
+    url('./RoslindaleDisplayCondensed-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roslindale Display Condensed';
+  src:
+    url('./RoslindaleDisplayCondensed-Bold.woff2') format('woff2'),
+    url('./RoslindaleDisplayCondensed-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
