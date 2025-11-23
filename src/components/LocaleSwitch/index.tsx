@@ -28,6 +28,7 @@ export default function LocaleSwitch() {
       router.replace(
         {
           pathname,
+          // @ts-ignore
           params,
         },
         { locale: selectedLocale }
