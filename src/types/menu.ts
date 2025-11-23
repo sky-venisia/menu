@@ -10,5 +10,6 @@ export interface MenuItem {
 }
 
 export interface MenuData {
+  heading: string;
   menu: MenuItem[];
 }
