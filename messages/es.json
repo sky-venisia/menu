@@ -4,7 +4,6 @@
     {
       "category": "entrees",
       "displayName": "Entrada",
-      "id": 0,
       "name": "Sopa Marroquí",
       "description": "Harira tradicional con tomates, lentejas y especias.",
       "image": "/1.jpg",
@@ -13,7 +12,6 @@
     {
       "category": "entrees",
       "displayName": "Entrada",
-      "id": 1,
       "name": "Tabulé",
       "description": "Ensalada fresca con perejil, bulgur, limón y aceite de oliva.",
       "image": "/2.jpg",
@@ -22,7 +20,6 @@
     {
       "category": "entrees",
       "displayName": "Entrada",
-      "id": 2,
       "name": "Ensalada Taktouka",
       "description": "Ensalada marroquí de pimientos asados, tomates y ajo.",
       "image": "/3.jpg",
@@ -31,7 +28,6 @@
     {
       "category": "entrees",
       "displayName": "Entrada",
-      "id": 3,
       "name": "Ensalada César",
       "description": "Lechuga crujiente, parmesano, crutones y salsa César.",
       "image": "/4.jpg",
@@ -40,7 +36,6 @@
     {
       "category": "entrees",
       "displayName": "Entrada",
-      "id": 4,
       "name": "Ensalada Niçoise",
       "description": "Ensalada clásica con atún, huevos, patatas y aceitunas.",
       "image": "/5.jpg",
@@ -49,7 +44,6 @@
     {
       "category": "entrees",
       "displayName": "Entrada",
-      "id": 5,
       "name": "Gambas Pil-Pil",
       "description": "Gambas salteadas con ajo, chile y aceite de oliva.",
       "image": "/6.jpg",
@@ -58,7 +52,6 @@
     {
       "category": "entrees",
       "displayName": "Entrada",
-      "id": 6,
       "name": "Tomate Mozzarella",
       "description": "Tomate fresco y mozzarella con albahaca y aceite de oliva.",
       "image": "/7.jpeg",
@@ -67,7 +60,6 @@
     {
       "category": "entrees",
       "displayName": "Entrada",
-      "id": 7,
       "name": "Ensalada Vigneronne (Especialidad)",
       "description": "Ensalada de la casa con vinagreta suave y sabores afrutados.",
       "image": "/8.jpg",
@@ -76,7 +68,6 @@
     {
       "category": "entrees",
       "displayName": "Entrada",
-      "id": 8,
       "name": "Ensalada de Aguacate y Gambas",
       "description": "Aguacate cremoso acompañado de gambas frescas.",
       "image": "/9.jpg",
@@ -85,7 +76,6 @@
     {
       "category": "entrees",
       "displayName": "Entrada",
-      "id": 9,
       "name": "Ensalada de Ternera",
       "description": "Especialidad de la casa con vinagreta de miel.",
       "image": "/10.webp",
@@ -94,7 +84,6 @@
     {
       "category": "entrees",
       "displayName": "Entrada",
-      "id": 10,
       "name": "Ensalada de Salmón Ahumado",
       "description": "Ensalada acompañada de lonchas de salmón ahumado.",
       "image": "/11.jpg",
@@ -104,7 +93,6 @@
     {
       "category": "les-plats-marocain",
       "displayName": "Platos Marroquíes",
-      "id": 11,
       "name": "Tajine Vegetariano",
       "description": "Verduras cocinadas lentamente con especias marroquíes.",
       "image": "/12.jpg",
@@ -113,7 +101,6 @@
     {
       "category": "les-plats-marocain",
       "displayName": "Platos Marroquíes",
-      "id": 12,
       "name": "Pastela de Pollo",
       "description": "Hojaldre tradicional relleno de pollo y almendras.",
       "image": "/13.jpg",
@@ -122,7 +109,6 @@
     {
       "category": "les-plats-marocain",
       "displayName": "Platos Marroquíes",
-      "id": 13,
       "name": "Pastela de Mariscos",
       "description": "Hojaldre crujiente relleno de una mezcla de mariscos.",
       "image": "/14.webp",
@@ -131,7 +117,6 @@
     {
       "category": "les-plats-marocain",
       "displayName": "Platos Marroquíes",
-      "id": 14,
       "name": "Cuscús Vegetariano",
       "description": "Cuscús servido con 7 verduras.",
       "image": "/15.jpg",
@@ -140,7 +125,6 @@
     {
       "category": "les-plats-marocain",
       "displayName": "Platos Marroquíes",
-      "id": 15,
       "name": "Cuscús con Pollo",
       "description": "Cuscús con pollo acompañado de 7 verduras.",
       "image": "/16.avif",
@@ -149,7 +133,6 @@
     {
       "category": "les-plats-marocain",
       "displayName": "Platos Marroquíes",
-      "id": 16,
       "name": "Cuscús con Ternera",
       "description": "Cuscús con ternera y 7 verduras.",
       "image": "/17.jpeg",
@@ -158,7 +141,6 @@
     {
       "category": "les-plats-marocain",
       "displayName": "Platos Marroquíes",
-      "id": 17,
       "name": "Tajine de Pollo al Limón",
       "description": "Pollo cocinado lentamente con limones encurtidos y aceitunas.",
       "image": "/18.png",
@@ -167,7 +149,6 @@
     {
       "category": "les-plats-marocain",
       "displayName": "Platos Marroquíes",
-      "id": 18,
       "name": "Tanjia",
       "description": "Especialidad de Marrakech: carne cocida lentamente.",
       "image": "/19.jpeg",
@@ -176,7 +157,6 @@
     {
       "category": "les-plats-marocain",
       "displayName": "Platos Marroquíes",
-      "id": 19,
       "name": "Tajine de Ternera con Ciruelas",
       "description": "Ternera tierna cocinada con ciruelas y especias agridulces.",
       "image": "/20.webp",
@@ -185,7 +165,6 @@
     {
       "category": "les-plats-marocain",
       "displayName": "Platos Marroquíes",
-      "id": 20,
       "name": "Cuscús Real",
       "description": "Cuscús con 7 verduras y 7 carnes.",
       "image": "/21.webp",
@@ -195,73 +174,65 @@
     {
       "category": "international",
       "displayName": "Internacional",
-      "id": 21,
       "name": "Pollo en Tirillas con Champiñones",
       "description": "Pollo en tiras en una salsa cremosa de champiñones.",
-      "image": "/21.webp",
+      "image": "/22.jpg",
       "price": 120
     },
     {
       "category": "international",
       "displayName": "Internacional",
-      "id": 22,
       "name": "Escalope de Pollo",
       "description": "Escalope empanado servido con acompañamiento.",
-      "image": "/21.webp",
+      "image": "/23.jpg",
       "price": 120
     },
     {
       "category": "international",
       "displayName": "Internacional",
-      "id": 23,
       "name": "Wok de Pollo",
       "description": "Pollo salteado con verduras y sabores asiáticos.",
-      "image": "/21.webp",
+      "image": "/24.jpg",
       "price": 125
     },
     {
       "category": "international",
       "displayName": "Internacional",
-      "id": 24,
       "name": "Ternera en Tirillas",
       "description": "Ternera en tiras salteada en una salsa sabrosa.",
-      "image": "/21.webp",
+      "image": "/25.jpg",
       "price": 130
     },
     {
       "category": "international",
       "displayName": "Internacional",
-      "id": 25,
       "name": "Wok de Ternera",
       "description": "Ternera salteada con verduras y especias asiáticas.",
-      "image": "/21.webp",
+      "image": "/26.jpg",
       "price": 135
     },
     {
       "category": "international",
       "displayName": "Internacional",
-      "id": 26,
       "name": "Plato Asiático",
       "description": "Surtido de especialidades de inspiración asiática.",
-      "image": "/21.webp",
+      "image": "/27.jpg",
       "price": 180
     },
     {
       "category": "international",
       "displayName": "Internacional",
-      "id": 27,
       "name": "Tagliatelle con Salmón",
       "description": "Tagliatelle cremoso con salmón.",
-      "image": "/21.webp",
+      "image": "/28.jpg",
       "price": 180
     },
     {
       "category": "international",
       "displayName": "Internacional",
-      "id": 28,
       "name": "Filete de Ternera",
       "description": "Filete de ternera tierno, a la parrilla según su preferencia.",
-      "image": "/21.webp",
+      "image": "/29.jpeg",
       "price": 180
     }
   ]

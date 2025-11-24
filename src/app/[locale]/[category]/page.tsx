@@ -14,8 +14,8 @@ export default async function Page({ params }: { params: Promise<{ category: str
         <div className={clsx(styles.container, 'container')}>
           <h2 className={styles.categoryName}>{menu[0]?.displayName}</h2>
           <div className={styles.grid}>
-            {menu.map((dish) => (
-              <Card key={dish.id} dish={dish} />
+            {menu.map((dish, index) => (
+              <Card key={index} dish={dish} />
             ))}
           </div>
         </div>
