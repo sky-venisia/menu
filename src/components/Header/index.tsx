@@ -3,14 +3,12 @@
 import { useRef } from 'react';
 import Link from 'next/link';
 import { useMenu } from '@/context/MenuContext';
-import gsap from 'gsap';
-import { SplitText } from 'gsap/SplitText';
 import clsx from 'clsx';
 import styles from './index.module.css';
 import LocaleSwitch from '../LocaleSwitch';
 
 export default function Header() {
-  const { isMenuOpen, toggleMenu } = useMenu();
+  const { toggleMenu } = useMenu();
   const buttonRef = useRef<HTMLButtonElement>(null);
 
   function handleClick() {

@@ -1,10 +1,9 @@
 import clsx from 'clsx';
 import styles from './page.module.css';
-import { getMessages } from 'next-intl/server';
 import { MenuData } from '@/types/menu';
 import Image from 'next/image';
 import HeroImg from '@/assets/images/home.jpg';
-import CategoryLink from '@/components/CategoryLink';
+
 import { Metadata } from 'next';
 import { useMessages } from 'next-intl';
 

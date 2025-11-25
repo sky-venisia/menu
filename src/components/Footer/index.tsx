@@ -1,7 +1,6 @@
 'use client';
-import styles from './index.module.css';
 
-import Link from 'next/link';
+import styles from './index.module.css';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { useRef } from 'react';
