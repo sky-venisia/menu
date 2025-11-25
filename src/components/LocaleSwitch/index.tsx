@@ -19,9 +19,6 @@ export default function LocaleSwitch() {
   const params = useParams();
   const locale = useLocale();
 
-  console.log(pathname);
-  console.log(params);
-
   function handleChange(event: ChangeEvent<HTMLSelectElement>) {
     const selectedLocale = event.target.value;
     startTransition(() => {

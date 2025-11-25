@@ -234,6 +234,72 @@
       "description": "Filetto di manzo tenero, grigliato secondo la cottura desiderata.",
       "image": "/29.jpeg",
       "price": 180
+    },
+    {
+      "category": "boissons",
+      "displayName": "Bevande Forti",
+      "name": "Johnnie Walker Red Label",
+      "description": "Uno Scotch morbido e vivace con leggere note affumicate.",
+      "image": "/30.webp",
+      "sizes": [
+        { "size": "Bicchiere", "price": 110 },
+        { "size": "Bottiglia", "price": 1200 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Bevande Forti",
+      "name": "Gin Bombay",
+      "description": "Un classico gin londinese con note agrumate e botaniche.",
+      "image": "/31.jpg",
+      "sizes": [
+        { "size": "Bicchiere", "price": 120 },
+        { "size": "Bottiglia", "price": 1200 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Bevande Forti",
+      "name": "Vodka Absolut",
+      "description": "Una vodka pulita e fresca con un finale morbido.",
+      "image": "/32.jpg",
+      "sizes": [
+        { "size": "Bicchiere", "price": 80 },
+        { "size": "Bottiglia", "price": 1200 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Bevande Forti",
+      "name": "Jack Daniel's",
+      "description": "Un ricco whiskey del Tennessee con calde note di caramello.",
+      "image": "/33.webp",
+      "sizes": [
+        { "size": "Bicchiere", "price": 120 },
+        { "size": "Bottiglia", "price": 1300 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Bevande Forti",
+      "name": "Jack Daniel's Honey",
+      "description": "Una miscela morbida di whiskey del Tennessee e dolce miele naturale.",
+      "image": "/34.jpg",
+      "sizes": [
+        { "size": "Bicchiere", "price": 120 },
+        { "size": "Bottiglia", "price": 1300 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Bevande Forti",
+      "name": "Vodka Grey Goose",
+      "description": "Una vodka ultrapremium dal gusto setoso e raffinato.",
+      "image": "/35.webp",
+      "sizes": [
+        { "size": "Bicchiere", "price": 120 },
+        { "size": "Bottiglia", "price": 1400 }
+      ]
     }
   ]
 }

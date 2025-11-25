@@ -234,6 +234,72 @@
       "description": "Filete de ternera tierno, a la parrilla según su preferencia.",
       "image": "/29.jpeg",
       "price": 180
+    },
+    {
+      "category": "boissons",
+      "displayName": "Bebidas Fuertes",
+      "name": "Johnnie Walker Red Label",
+      "description": "Un whisky escocés suave y vibrante con ligeras notas ahumadas.",
+      "image": "/30.webp",
+      "sizes": [
+        { "size": "Vaso", "price": 110 },
+        { "size": "Botella", "price": 1200 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Bebidas Fuertes",
+      "name": "Gin Bombay",
+      "description": "Un clásico gin londinense con sabores cítricos y botánicos.",
+      "image": "/31.jpg",
+      "sizes": [
+        { "size": "Vaso", "price": 120 },
+        { "size": "Botella", "price": 1200 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Bebidas Fuertes",
+      "name": "Vodka Absolut",
+      "description": "Una vodka limpia y refrescante con un acabado suave.",
+      "image": "/32.jpg",
+      "sizes": [
+        { "size": "Vaso", "price": 80 },
+        { "size": "Botella", "price": 1200 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Bebidas Fuertes",
+      "name": "Jack Daniel's",
+      "description": "Un rico whiskey de Tennessee con cálidas notas de caramelo.",
+      "image": "/33.webp",
+      "sizes": [
+        { "size": "Vaso", "price": 120 },
+        { "size": "Botella", "price": 1300 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Bebidas Fuertes",
+      "name": "Jack Daniel's Honey",
+      "description": "Una mezcla suave de whiskey de Tennessee con dulzura natural de miel.",
+      "image": "/34.jpg",
+      "sizes": [
+        { "size": "Vaso", "price": 120 },
+        { "size": "Botella", "price": 1300 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Bebidas Fuertes",
+      "name": "Vodka Grey Goose",
+      "description": "Una vodka ultrapremium con un sabor sedoso y refinado.",
+      "image": "/35.webp",
+      "sizes": [
+        { "size": "Vaso", "price": 120 },
+        { "size": "Botella", "price": 1400 }
+      ]
     }
   ]
 }

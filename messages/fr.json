@@ -234,6 +234,72 @@
       "description": "Filet de bœuf tendre, grillé selon votre cuisson.",
       "image": "/29.jpeg",
       "price": 180
+    },
+    {
+      "category": "boissons",
+      "displayName": "Boisons Fortes",
+      "name": "Johnnie Walker Red Label",
+      "description": "A smooth and vibrant Scotch with light smoky notes. | Un Scotch doux et vibrant aux légères notes fumées.",
+      "image": "/30.webp",
+      "sizes": [
+        { "size": "Verre", "price": 110 },
+        { "size": "Bouteille", "price": 1200 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Boisons Fortes",
+      "name": "Gin Bombay",
+      "description": "A classic London gin with bright citrus and botanical flavors. | Un gin londonien classique aux saveurs d’agrumes et de plantes.",
+      "image": "/31.jpg",
+      "sizes": [
+        { "size": "Verre", "price": 120 },
+        { "size": "Bouteille", "price": 1200 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Boisons Fortes",
+      "name": "Vodka Absolut",
+      "description": "A clean and crisp vodka with a smooth finish. | Une vodka pure et rafraîchissante à la finition douce.",
+      "image": "/32.jpg",
+      "sizes": [
+        { "size": "Verre", "price": 80 },
+        { "size": "Bouteille", "price": 1200 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Boisons Fortes",
+      "name": "Jack Daniel's",
+      "description": "A rich Tennessee whiskey with warm caramel notes. | Un whiskey du Tennessee riche aux notes chaleureuses de caramel.",
+      "image": "/33.webp",
+      "sizes": [
+        { "size": "Verre", "price": 120 },
+        { "size": "Bouteille", "price": 1300 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Boisons Fortes",
+      "name": "Jack Daniel's miel",
+      "description": "A smooth blend of whiskey and natural honey sweetness. | Un mélange doux de whiskey et de douceur de miel.",
+      "image": "/34.jpg",
+      "sizes": [
+        { "size": "Verre", "price": 120 },
+        { "size": "Bouteille", "price": 1300 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Boisons Fortes",
+      "name": "Vodka Grey Goose",
+      "description": "An ultra-premium vodka with a silky, refined taste. | Une vodka ultra-premium au goût soyeux et raffiné.",
+      "image": "/35.webp",
+      "sizes": [
+        { "size": "Verre", "price": 120 },
+        { "size": "Bouteille", "price": 1400 }
+      ]
     }
   ]
 }

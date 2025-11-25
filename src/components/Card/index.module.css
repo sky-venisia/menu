@@ -17,6 +17,7 @@
 }
 
 .title {
+  font-family: "TT Commons";
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1rem;
@@ -42,16 +43,21 @@
   background: linear-gradient(90deg, #bfa308, #002300, #bfa308);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text; /* Safari + modern browsers */
+  background-clip: text;
 }
 
 .priceAmount {
-  font-size: 2.5rem; /* big number */
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1;
 }
 
 .priceCurrency {
-  font-size: 0.75em; /* always 75% of the amount */
+  font-size: 0.75em;
   line-height: 1;
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
 }

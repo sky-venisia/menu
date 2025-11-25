@@ -234,6 +234,73 @@
       "description": "Tender beef fillet, grilled to your preferred doneness.",
       "image": "/29.jpeg",
       "price": 180
+    },
+
+    {
+      "category": "boissons",
+      "displayName": "Strong Drinks",
+      "name": "Johnnie Walker Red Label",
+      "description": "A smooth and vibrant Scotch with light smoky notes.",
+      "image": "/30.webp",
+      "sizes": [
+        { "size": "Glass", "price": 110 },
+        { "size": "Bottle", "price": 1200 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Strong Drinks",
+      "name": "Gin Bombay",
+      "description": "A classic London gin with bright citrus and botanical flavors.",
+      "image": "/31.jpg",
+      "sizes": [
+        { "size": "Glass", "price": 120 },
+        { "size": "Bottle", "price": 1200 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Strong Drinks",
+      "name": "Vodka Absolut",
+      "description": "A clean and crisp vodka with a smooth finish.",
+      "image": "/32.jpg",
+      "sizes": [
+        { "size": "Glass", "price": 80 },
+        { "size": "Bottle", "price": 1200 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Strong Drinks",
+      "name": "Jack Daniel's",
+      "description": "A rich Tennessee whiskey with warm caramel notes.",
+      "image": "/33.webp",
+      "sizes": [
+        { "size": "Glass", "price": 120 },
+        { "size": "Bottle", "price": 1300 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Strong Drinks",
+      "name": "Jack Daniel's Honey",
+      "description": "A smooth blend of Tennessee whiskey and natural honey sweetness.",
+      "image": "/34.jpg",
+      "sizes": [
+        { "size": "Glass", "price": 120 },
+        { "size": "Bottle", "price": 1300 }
+      ]
+    },
+    {
+      "category": "boissons",
+      "displayName": "Strong Drinks",
+      "name": "Vodka Grey Goose",
+      "description": "An ultra-premium vodka with a silky and refined taste.",
+      "image": "/35.webp",
+      "sizes": [
+        { "size": "Glass", "price": 120 },
+        { "size": "Bottle", "price": 1400 }
+      ]
     }
   ]
 }

@@ -1,12 +1,23 @@
-@import '../assets/fonts/RoslindaleDisplayCondensed/RoslindaleDisplayCondensed.css';
-@import '../assets/fonts/SharpGrotesk/SharpGrotesk.css';
-@import '../assets/fonts/Humane/Humane.css';
-@import '../assets/fonts/Migra/Migra.css';
-@import '../assets/fonts/Carpenter/Carpenter.css';
-@import '../assets/fonts/TTCommons/TTCommons.css';
-@import '../assets/fonts/Canopee/Canopee.css';
-@import '../assets/fonts/LZ/LZ.css';
-@import '../assets/fonts/NeueMontreal/NeueMontreal.css';
-@import '../assets/fonts/Montreal/Montreal.css';
-@import '../assets/fonts/Thunder/Thunder.css';
-@import '../assets/fonts/FKScreamer/FKScreamerTrial.css';
+@font-face {
+  font-family: 'PP Migra';
+  src: url('../assets/fonts/PPMigra/PPMigra-Regular.woff2') format('woff2'), url('../assets/fonts/PPMigra/PPMigra-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TT Commons';
+  src: url('../assets/fonts/TTCommons/TTCommons-Regular.woff2') format('woff2'), url('../assets/fonts/TTCommons/TTCommons-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sharp Grotesk';
+  src: url('../assets/fonts/SharpGrotesk/SharpGrotesk-Bold.woff2') format('woff2'), url('../assets/fonts/SharpGrotesk/SharpGrotesk-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

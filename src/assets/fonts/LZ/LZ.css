@@ -1,9 +1,0 @@
-@font-face {
-  font-family: LZ;
-  font-display: swap;
-  font-style: normal;
-  font-weight: 400;
-  src:
-    url('./LZ-Regular.woff2') format('woff2'),
-    url('./LZ-Regular.woff') format('woff');
-}
