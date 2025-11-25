@@ -168,7 +168,7 @@
       "name": "Cuscús Real",
       "description": "Cuscús con 7 verduras y 7 carnes.",
       "image": "/21.webp",
-      "price": 180
+      "price": 190
     },
 
     {
@@ -233,7 +233,7 @@
       "name": "Filete de Ternera",
       "description": "Filete de ternera tierno, a la parrilla según su preferencia.",
       "image": "/29.jpeg",
-      "price": 180
+      "price": 240
     },
     {
       "category": "boissons",

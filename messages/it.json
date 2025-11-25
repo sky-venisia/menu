@@ -168,7 +168,7 @@
       "name": "Couscous Reale",
       "description": "Couscous con 7 verdure e 7 carni.",
       "image": "/21.webp",
-      "price": 180
+      "price": 190
     },
 
     {
@@ -233,7 +233,7 @@
       "name": "Filetto di Manzo",
       "description": "Filetto di manzo tenero, grigliato secondo la cottura desiderata.",
       "image": "/29.jpeg",
-      "price": 180
+      "price": 240
     },
     {
       "category": "boissons",

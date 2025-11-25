@@ -168,7 +168,7 @@
       "name": "Couscous Royal",
       "description": "Couscous aux 7 légumes et 7 viandes.",
       "image": "/21.webp",
-      "price": 180
+      "price": 190
     },
 
     {
@@ -233,7 +233,7 @@
       "name": "Filet de Bœuf",
       "description": "Filet de bœuf tendre, grillé selon votre cuisson.",
       "image": "/29.jpeg",
-      "price": 180
+      "price": 240
     },
     {
       "category": "boissons",
