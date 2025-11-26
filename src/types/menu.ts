@@ -1,15 +1,32 @@
 export interface MenuItem {
   category: string;
-  displayName: string;
-  id: number;
-  name: string;
-  description: string;
+  categoryName: {
+    en: string;
+    fr: string;
+    es: string;
+    it: string;
+  };
+  name: {
+    en: string;
+    fr: string;
+    es: string;
+    it: string;
+  };
+  description: {
+    en: string;
+    fr: string;
+    es: string;
+    it: string;
+  };
   image: string;
   price?: number;
-  sizes: [{ size: string; price: number }];
-}
-
-export interface MenuData {
-  heading: string;
-  menu: MenuItem[];
+  sizes?: {
+    size: {
+      en: string;
+      fr: string;
+      es: string;
+      it: string;
+    };
+    price: number;
+  }[];
 }

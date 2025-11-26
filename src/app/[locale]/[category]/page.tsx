@@ -1,21 +1,30 @@
-import Card from '@/components/Card';
-import { MenuData } from '@/types/menu';
-import clsx from 'clsx';
-import styles from './page.module.css';
-import { getMessages } from 'next-intl/server';
+'use client';
 
-export default async function Page({ params }: { params: Promise<{ category: string }> }) {
-  const messages = (await getMessages()) as MenuData;
-  const { category } = await params;
-  const menu = messages.menu.filter((dish) => dish.category === category);
+import { useLocale } from 'next-intl';
+import { useParams } from 'next/navigation';
+import clsx from 'clsx';
+
+import Card from '@/components/Card';
+import MENU from '@/data/menu';
+import { Locales } from '@/types/locales';
+import { categoryNames } from '@/data/categories';
+
+import styles from './page.module.css';
+
+export default function Page() {
+  const locale = useLocale() as Locales;
+  const params = useParams();
+  const categoryName = categoryNames[params.category as string]?.[locale];
+  const categoryDishes = MENU.filter((dish) => dish.category === params.category);
+
   return (
     <main>
       <section className={styles.hero}>
         <div className={clsx(styles.container, 'container')}>
-          <h2 className={styles.categoryName}>{menu[0]?.displayName}</h2>
+          <h2 className={styles.categoryName}>{categoryName}</h2>
           <div className={styles.grid}>
-            {menu.map((dish, index) => (
-              <Card key={index} dish={dish} />
+            {categoryDishes.map((dish, index) => (
+              <Card dish={dish} key={index} />
             ))}
           </div>
         </div>

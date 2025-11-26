@@ -1,11 +1,12 @@
 import clsx from 'clsx';
 import styles from './page.module.css';
-import { MenuData } from '@/types/menu';
+
 import Image from 'next/image';
 import HeroImg from '@/assets/images/home.jpg';
 
 import { Metadata } from 'next';
 import { useMessages } from 'next-intl';
+import { Messages } from '@/types/messages';
 
 export const metadata: Metadata = {
   title: 'Sky Venisia — Luxury Rooftop Restaurant & Bar in Marrakesh',
@@ -41,24 +42,13 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  const messages = useMessages() as MenuData;
+  const messages = useMessages() as Messages;
 
   return (
     <main>
       <section className={styles.hero}>
         <div className={clsx(styles.container, 'container')}>
-          <h1 className={styles.heading}>
-            {/* <div className={styles.clip}>
-              <span className={styles.line}>We Create</span>
-            </div>
-            <div className={styles.clip}>
-              <span className={styles.line}>Flavors</span>
-            </div>
-            <div className={styles.clip}>
-              <span className={styles.line}>That stay</span>
-            </div> */}
-            {messages.heading}
-          </h1>
+          <h1 className={styles.heading}>{messages.HomeHero.greeting} Sky Venisia</h1>
         </div>
         <Image className={styles.backgroundImage} src={HeroImg} alt="Hero background" fill priority sizes="100vw" />
         <div className={styles.overlay} />

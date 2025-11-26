@@ -25,41 +25,6 @@
   font-family: 'Sharp Grotesk';
 }
 
-.selectedProjects {
-  margin-left: auto;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.list {
-  display: flex;
-  gap: 1.25rem;
-}
-
-.listItem {
-  position: relative;
-  overflow: hidden;
-}
-
-.projectImage {
-  display: block;
-  height: 5.375rem;
-  width: 5.375rem;
-  object-fit: cover;
-  aspect-ratio: 1 / 1;
-}
-
-.link::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  display: block;
-  background-color: rgba(0, 0, 0, 0.2);
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 500ms;
-}
-
 .backgroundImage {
   width: 100%;
   height: 100%;
