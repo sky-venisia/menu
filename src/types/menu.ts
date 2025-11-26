@@ -1,11 +1,5 @@
 export interface MenuItem {
   category: string;
-  categoryName: {
-    en: string;
-    fr: string;
-    es: string;
-    it: string;
-  };
   name: {
     en: string;
     fr: string;
