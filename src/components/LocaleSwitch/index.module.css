@@ -2,4 +2,14 @@
   border-radius: 0.5rem;
   padding: 0.25rem;
   cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.select {
+  -webkit-appearance: none; /* Safari and Chrome */
+  -moz-appearance: none; /* Firefox */
+  appearance: none; /* Standard */
+  background: none; /* Some browsers still show arrow */
+  padding: 0; /* Removes default padding */
 }

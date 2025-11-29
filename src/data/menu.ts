@@ -1,29 +1,4 @@
-interface MenuItem {
-  category: string;
-  name: {
-    en: string;
-    fr: string;
-    es: string;
-    it: string;
-  };
-  description: {
-    en: string;
-    fr: string;
-    es: string;
-    it: string;
-  };
-  image: string;
-  price?: number;
-  sizes?: {
-    size: {
-      en: string;
-      fr: string;
-      es: string;
-      it: string;
-    };
-    price: number;
-  }[];
-}
+import { MenuItem } from '@/types/menu';
 
 const MENU: MenuItem[] = [
   {
@@ -639,8 +614,6 @@ const MENU: MenuItem[] = [
       { size: { en: 'Bottle', fr: 'Bouteille', es: 'Botella', it: 'Bottiglia' }, price: 1400 },
     ],
   },
-  // --- END OF DRINKS ---
-
   {
     category: 'desserts',
     name: {

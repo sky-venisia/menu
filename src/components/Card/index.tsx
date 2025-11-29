@@ -22,17 +22,14 @@ export default function Card({ dish }: Props) {
         <p className={styles.description}>{dish.description[locale]}</p>
 
         {dish.price ? (
-          <p className={styles.price}>
-            <span className={styles.priceAmount}>{dish.price}</span>
-            <span className={styles.priceCurrency}>Dhs</span>
-          </p>
+          <p className={styles.price}>{dish.price} Dhs</p>
         ) : (
           <div className={styles.prices}>
             {dish.sizes?.map((size) => (
-              <p className={styles.price} key={size.size[locale]}>
-                <span className={styles.priceAmount}>{size.price}</span>
-                <span className={styles.priceCurrency}>Dhs</span> ({size.size[locale]})
-              </p>
+              <div className={styles.sizeGroup} key={size.size[locale]}>
+                <p className={styles.size}>{size.size[locale]}: </p>
+                <p className={styles.price}>{size.price} Dhs</p>
+              </div>
             ))}
           </div>
         )}

@@ -16,12 +16,12 @@
 }
 
 .menuButton {
-  overflow: hidden;
-  padding-right: 0.3125rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .smallLogo {
-  height: 3.5rem;
+  width: 1.75rem;
 }
 
 .largeLogo {
@@ -35,7 +35,7 @@
   }
 
   .smallLogo {
-    display: none;
+    /* display: none; */
   }
 
   .largeLogo {
