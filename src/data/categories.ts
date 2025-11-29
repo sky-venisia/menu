@@ -31,4 +31,34 @@ export const categoryNames: Record<string, Record<Locales, string>> = {
     es: 'Postres',
     it: 'Dolci',
   },
+  skewers: {
+    en: 'Skewers',
+    fr: 'Brochettes',
+    es: 'Brochetas',
+    it: 'Spiedini',
+  },
+  pasta: {
+    en: 'Pasta',
+    fr: 'Pâtes',
+    es: 'Pasta',
+    it: 'Pasta',
+  },
+  'fast-food': {
+    en: 'Fast Food',
+    fr: 'Fast Food',
+    es: 'Comida Rápida',
+    it: 'Fast Food',
+  },
+  pizza: {
+    en: 'Pizza',
+    fr: 'Pizza',
+    es: 'Pizza',
+    it: 'Pizza',
+  },
+  tapas: {
+    en: 'Tapas',
+    fr: 'Tapas',
+    es: 'Tapas',
+    it: 'Tapas',
+  },
 };
