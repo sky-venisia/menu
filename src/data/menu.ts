@@ -798,7 +798,7 @@ const MENU: MenuItem[] = [
       es: 'Tres brochetas a la parrilla hechas con carne picada sazonada.',
       it: 'Tre spiedini grigliati preparati con carne macinata speziata.',
     },
-    image: '/brochettes-kefta.jpg',
+    image: '/46.jpg',
     price: 100,
   },
   {
@@ -815,7 +815,7 @@ const MENU: MenuItem[] = [
       es: 'Tres brochetas de pollo marinadas y asadas.',
       it: 'Tre spiedini di pollo marinati e grigliati.',
     },
-    image: '/brochettes-poulet.jpg',
+    image: '/47.jpg',
     price: 110,
   },
   {
@@ -832,7 +832,7 @@ const MENU: MenuItem[] = [
       es: 'Tres brochetas con salchichas merguez picantes.',
       it: 'Tre spiedini con salsicce merguez piccanti.',
     },
-    image: '/brochettes-merguez.jpg',
+    image: '/48.jpg',
     price: 120,
   },
   {
@@ -849,7 +849,7 @@ const MENU: MenuItem[] = [
       es: 'Dos brochetas de ternera a la parrilla, tiernas y sazonadas.',
       it: 'Due spiedini di manzo grigliati, teneri e speziati.',
     },
-    image: '/brochettes-boeuf.jpg',
+    image: '/49.avif',
     price: 150,
   },
   {
@@ -866,7 +866,7 @@ const MENU: MenuItem[] = [
       es: 'Una selección de seis brochetas mixtas: kefta, pollo, merguez y ternera.',
       it: 'Una selezione di sei spiedini misti: kefta, pollo, merguez e manzo.',
     },
-    image: '/brochettes-mixtes.jpg',
+    image: '/50.jpg',
     price: 150,
   },
   {
@@ -883,7 +883,7 @@ const MENU: MenuItem[] = [
       es: 'Espaguetis servidos con una clásica salsa napolitana de tomate.',
       it: 'Spaghetti serviti con la tradizionale salsa napoletana a base di pomodoro.',
     },
-    image: '/spaghetti-napolitaine.jpg',
+    image: '/51.jpg',
     price: 80,
   },
   {
@@ -900,7 +900,7 @@ const MENU: MenuItem[] = [
       es: 'Espaguetis con una salsa arrabiata picante de tomate y chile.',
       it: 'Spaghetti con una salsa arrabbiata piccante a base di pomodoro e peperoncino.',
     },
-    image: '/spaghetti-arrabiata.jpg',
+    image: '/52.jpg',
     price: 80,
   },
   {
@@ -917,7 +917,7 @@ const MENU: MenuItem[] = [
       es: 'Espaguetis servidos con una salsa boloñesa de carne picada.',
       it: 'Spaghetti conditi con un ricco ragù alla bolognese.',
     },
-    image: '/spaghetti-bolognaise.jpg',
+    image: '/53.webp',
     price: 100,
   },
   {
@@ -934,7 +934,7 @@ const MENU: MenuItem[] = [
       es: 'Tagliatelle cremosos preparados al estilo carbonara.',
       it: 'Tagliatelle cremose preparate in stile carbonara.',
     },
-    image: '/tagliatelles-carbonara.jpg',
+    image: '/54.jpg',
     price: 100,
   },
   {
@@ -951,7 +951,7 @@ const MENU: MenuItem[] = [
       es: 'Tagliatelle servidos con una mezcla de mariscos en una salsa sabrosa.',
       it: 'Tagliatelle servite con un misto di frutti di mare in una salsa saporita.',
     },
-    image: '/tagliatelles-fruits-de-mer.jpg',
+    image: '/55.jpg',
     price: 130,
   },
   {
@@ -968,7 +968,7 @@ const MENU: MenuItem[] = [
       es: 'Una tortilla rellena de pollo sazonado, papas fritas y salsa.',
       it: 'Una tortilla ripiena di pollo speziato, patatine fritte e salsa.',
     },
-    image: '/tacos-poulet.jpg',
+    image: '/56.avif',
     price: 50,
   },
   {
@@ -985,7 +985,7 @@ const MENU: MenuItem[] = [
       es: 'Una tortilla rellena de carne picada sazonada, papas fritas y salsa.',
       it: 'Una tortilla ripiena di carne macinata speziata, patatine e salsa.',
     },
-    image: '/tacos-kefta.jpg',
+    image: '/57.jpg',
     price: 55,
   },
   {
@@ -1002,7 +1002,7 @@ const MENU: MenuItem[] = [
       es: 'Una hamburguesa clásica con carne, verduras y salsa.',
       it: 'Un classico burger con carne, verdure e salsa.',
     },
-    image: '/burger-xi.jpg',
+    image: '/58.jpeg',
     price: 70,
   },
   {
@@ -1019,7 +1019,7 @@ const MENU: MenuItem[] = [
       es: 'Una hamburguesa más grande con carne, queso, verduras y salsa especial.',
       it: 'Un burger più grande con carne, formaggio, verdure e salsa della casa.',
     },
-    image: '/burger-xxi.jpg',
+    image: '/59.jpeg',
     price: 75,
   },
   {
@@ -1036,7 +1036,7 @@ const MENU: MenuItem[] = [
       es: 'Una tortilla que combina dos carnes, normalmente pollo y kefta.',
       it: 'Una tortilla che combina due carni, solitamente pollo e kefta.',
     },
-    image: '/tacos-mixte.jpg',
+    image: '/60.jpg',
     price: 75,
   },
   {
@@ -1053,7 +1053,7 @@ const MENU: MenuItem[] = [
       es: 'Un sándwich de pollo con papas fritas dentro.',
       it: 'Un panino al pollo con patatine all’interno.',
     },
-    image: '/sandwich-poulet-frites.jpg',
+    image: '/61.jpg',
     price: 55,
   },
   {
@@ -1070,7 +1070,7 @@ const MENU: MenuItem[] = [
       es: 'Un sándwich relleno de carne picada sazonada y papas.',
       it: 'Un panino ripieno di carne macinata speziata e patatine.',
     },
-    image: '/sandwich-kefta-frites.jpg',
+    image: '/62.webp',
     price: 65,
   },
   {
@@ -1087,7 +1087,7 @@ const MENU: MenuItem[] = [
       es: 'Un sándwich con salchicha merguez picante y papas.',
       it: 'Un panino con salsiccia merguez piccante e patatine.',
     },
-    image: '/sandwich-merguez-frites.jpg',
+    image: '/63.jpeg',
     price: 80,
   },
   {
@@ -1104,7 +1104,7 @@ const MENU: MenuItem[] = [
       es: 'Un sándwich que combina dos carnes, normalmente pollo y kefta.',
       it: 'Un panino che combina due carni, solitamente pollo e kefta.',
     },
-    image: '/sandwich-mixte.jpg',
+    image: '/64.jpg',
     price: 85,
   },
   {
@@ -1121,7 +1121,7 @@ const MENU: MenuItem[] = [
       es: 'Una hamburguesa muy grande con varias capas de carne y acompañamientos.',
       it: 'Un burger molto grande con più strati di carne e condimenti.',
     },
-    image: '/burger-xxxi.jpg',
+    image: '/65.jpeg',
     price: 95,
   },
   {
@@ -1138,7 +1138,7 @@ const MENU: MenuItem[] = [
       es: 'Una pizza clásica con salsa de tomate, mozzarella y albahaca.',
       it: 'Una pizza classica con salsa di pomodoro, mozzarella e basilico.',
     },
-    image: '/pizza-margherita.jpg',
+    image: '/66.jpg',
     price: 70,
   },
   {
@@ -1155,7 +1155,7 @@ const MENU: MenuItem[] = [
       es: 'Una pizza cubierta con verduras frescas variadas y queso.',
       it: 'Una pizza con vari verdure fresche e formaggio.',
     },
-    image: '/pizza-vegetarienne.jpg',
+    image: '/67.webp',
     price: 70,
   },
   {
@@ -1172,7 +1172,7 @@ const MENU: MenuItem[] = [
       es: 'Una pizza napolitana tradicional con tomate, mozzarella y aceite de oliva.',
       it: "Una pizza tradizionale napoletana con pomodoro, mozzarella e olio d'oliva.",
     },
-    image: '/pizza-napolitaine.jpg',
+    image: '/68.jpg',
     price: 80,
   },
   {
@@ -1189,7 +1189,7 @@ const MENU: MenuItem[] = [
       es: 'Papas fritas crujientes servidas con salsa brava picante.',
       it: 'Patate fritte croccanti servite con salsa bravas piccante.',
     },
-    image: '/patatas-bravas.jpg',
+    image: '/69.jpg',
     price: 80,
   },
   {
@@ -1206,7 +1206,7 @@ const MENU: MenuItem[] = [
       es: 'Cinco rollitos crujientes rellenos de queso fundido.',
       it: 'Cinque involtini croccanti ripieni di formaggio fuso.',
     },
-    image: '/nems-fromage.jpg',
+    image: '/70.jpg',
     price: 90,
   },
   {
@@ -1223,7 +1223,7 @@ const MENU: MenuItem[] = [
       es: 'Cinco rollitos crujientes rellenos de carne kefta sazonada.',
       it: 'Cinque involtini croccanti ripieni di carne macinata speziata.',
     },
-    image: '/nems-kefta.jpg',
+    image: '/71.jpeg',
     price: 90,
   },
   {
@@ -1240,7 +1240,7 @@ const MENU: MenuItem[] = [
       es: 'Cinco rollitos crujientes rellenos de pollo.',
       it: 'Cinque involtini croccanti ripieni di pollo.',
     },
-    image: '/nems-poulet.jpg',
+    image: '/72.jpeg',
     price: 90,
   },
   {
@@ -1257,7 +1257,7 @@ const MENU: MenuItem[] = [
       es: 'Gambas cocinadas con ajo, guindilla y aceite de oliva, estilo español.',
       it: "Gamberi cotti con aglio, peperoncino e olio d'oliva, in stile spagnolo.",
     },
-    image: '/crevettes-pil-pil.jpg',
+    image: '/73.jpg',
     price: 90,
   },
   {
@@ -1274,7 +1274,7 @@ const MENU: MenuItem[] = [
       es: 'Una selección de quesos variados.',
       it: 'Una selezione di formaggi assortiti.',
     },
-    image: '/assiette-fromages.jpg',
+    image: '/74.webp',
     price: 120,
   },
   {
@@ -1291,7 +1291,7 @@ const MENU: MenuItem[] = [
       es: 'Calamares tiernos servidos con hierbas, limón y salsa.',
       it: 'Calamari teneri serviti con erbe, limone e salsa.',
     },
-    image: '/plat-calamars.jpg',
+    image: '/75.webp',
     price: 120,
   },
 ];
