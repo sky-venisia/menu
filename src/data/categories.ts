@@ -61,4 +61,16 @@ export const categoryNames: Record<string, Record<Locales, string>> = {
     es: 'Tapas',
     it: 'Tapas',
   },
+  'savory-flammekueche': {
+    en: 'Savory Flammekueche',
+    fr: 'Tartes Flambées Salées',
+    es: 'Tartas Flambeadas Saladas',
+    it: 'Torte Flambé Salate',
+  },
+  'sweet-flammekueche': {
+    en: 'Sweet Flammekueche',
+    fr: 'Tartes Flambées Sucrées',
+    es: 'Tartas Flambeadas Dulces',
+    it: 'Torte Flambé Dolci',
+  },
 };

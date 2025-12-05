@@ -30,14 +30,14 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html lang="en">
       <body>
         <NextIntlClientProvider>
-          <MenuProvider>
-            <Lenis>
+          <Lenis>
+            <MenuProvider>
               <Header />
               <Menu />
               {children}
               <Footer />
-            </Lenis>
-          </MenuProvider>
+            </MenuProvider>
+          </Lenis>
         </NextIntlClientProvider>
       </body>
     </html>

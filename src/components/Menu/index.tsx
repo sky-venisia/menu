@@ -2,14 +2,15 @@
 
 import { useRef } from 'react';
 import { useMenu } from '@/context/MenuContext';
-import { useGSAP } from '@gsap/react';
-import gsap from 'gsap';
 import { useLocale } from 'next-intl';
 import Link from 'next/link';
 import MenuLink from './components/MenuLink';
 import styles from './index.module.css';
 import { Locales } from '@/types/locales';
 import { categoryNames } from '@/data/categories';
+import { useGSAP } from '@gsap/react';
+import { gsap } from '@/lib/gsap';
+import { useLenis } from 'lenis/react';
 
 const InstagramIcon = () => (
   <svg width="19" height="19" viewBox="0 0 19 19" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -24,14 +25,18 @@ export default function Menu() {
   const { isMenuOpen } = useMenu();
   const locale = useLocale() as Locales;
 
+  const lenis = useLenis();
+
   useGSAP(() => {
     if (isMenuOpen) {
+      lenis?.stop();
       gsap.to(menuRef.current, {
         clipPath: 'inset(0% 0% 0% 0%)',
         duration: 0.5,
         ease: '0.4, 0, 0.2, 1',
       });
     } else {
+      lenis?.start();
       gsap.to(menuRef.current, {
         clipPath: 'inset(0% 0% 100% 0%)',
         duration: 0.5,

@@ -6,7 +6,7 @@
   flex-direction: column;
   text-align: center;
   padding-top: 6rem;
-  background-color: rgb(188 190 179);
+  background-color: rgb(235, 235, 235);
   color: rgb(2, 2, 2);
   clip-path: inset(0% 0% 100% 0%);
   will-change: clip-path;
