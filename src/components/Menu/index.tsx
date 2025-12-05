@@ -3,7 +3,7 @@
 import { useRef } from 'react';
 import { useMenu } from '@/context/MenuContext';
 import { useLocale } from 'next-intl';
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 import MenuLink from './components/MenuLink';
 import styles from './index.module.css';
 import { Locales } from '@/types/locales';

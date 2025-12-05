@@ -1,5 +1,6 @@
+import { Link } from '@/i18n/navigation';
 import styles from './index.module.css';
-import Link from 'next/link';
+
 
 export default function Footer() {
   return (

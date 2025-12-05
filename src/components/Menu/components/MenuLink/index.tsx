@@ -1,7 +1,6 @@
 import { useMenu } from '@/context/MenuContext';
-import Link from 'next/link';
 import styles from './index.module.css';
-import { usePathname } from '@/i18n/navigation';
+import { Link, usePathname } from '@/i18n/navigation';
 
 interface Props {
   category: {

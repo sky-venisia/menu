@@ -1,11 +1,11 @@
 'use client';
 
 import { useRef } from 'react';
-import Link from 'next/link';
 import { useMenu } from '@/context/MenuContext';
 import clsx from 'clsx';
 import styles from './index.module.css';
 import LocaleSwitch from '../LocaleSwitch';
+import { Link } from '@/i18n/navigation';
 
 export default function Header() {
   const { toggleMenu } = useMenu();
