@@ -8,18 +8,7 @@ import { useEffect, useState } from 'react';
 import Card from '@/components/Card';
 import { client } from '@/lib/sanityClient';
 import styles from './page.module.css';
-
-type MenuItem = {
-  _id: string;
-  name: Record<string, string>;
-  description: Record<string, string>;
-  price: number;
-  image?: {
-    asset: { _ref: string };
-  };
-  category: { _ref: string; _type: string };
-  sizes?: { size: Record<string, string>; price: number }[];
-};
+import { MenuItem } from '@/types/menu';
 
 export default function Page() {
   const locale = useLocale();
@@ -42,10 +31,7 @@ export default function Page() {
       }
 
       // 1️⃣ Fetch category name
-      const categoryData = await client.fetch(
-        `*[_type == "category" && slug.current == $slug][0]{ name }`,
-        { slug }
-      );
+      const categoryData = await client.fetch(`*[_type == "category" && slug.current == $slug][0]{ name }`, { slug });
       setCategoryName(categoryData?.name || null);
 
       // 2️⃣ Fetch menu items for that category
@@ -80,8 +66,8 @@ export default function Page() {
           <h2 className={styles.categoryName}>{categoryName[locale]}</h2>
 
           <div className={styles.grid}>
-            {dishes.map((dish) => (
-              <Card key={dish._id} dish={dish} />
+            {dishes.map((dish, index) => (
+              <Card key={index} dish={dish} />
             ))}
           </div>
         </div>
