@@ -9,12 +9,6 @@ import Card from '@/components/Card';
 import { client } from '@/lib/sanityClient';
 import styles from './page.module.css';
 
-type Category = {
-  _id: string;
-  name: Record<string, string>;
-  slug: string;
-};
-
 type MenuItem = {
   _id: string;
   name: Record<string, string>;
@@ -24,13 +18,14 @@ type MenuItem = {
     asset: { _ref: string };
   };
   category: { _ref: string; _type: string };
+  sizes?: { size: Record<string, string>; price: number }[];
 };
 
 export default function Page() {
   const locale = useLocale();
   const params = useParams();
 
-  const [category, setCategory] = useState<Category | null>(null);
+  const [categoryName, setCategoryName] = useState<Record<string, string> | null>(null);
   const [dishes, setDishes] = useState<MenuItem[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -38,32 +33,36 @@ export default function Page() {
     async function fetchData() {
       setLoading(true);
 
-      const query = `
-        *[_type == "category" && slug.current == $slug][0]{
-          _id,
-          name,
-          "products": *[_type == "menuItem" && category._ref == ^._id]{
-            _id,
-            name,
-            description,
-            price,
-            image,
-            sizes
-          }
-        }
-      `;
-
-      const data = await client.fetch(query, { slug: params.category });
-
-      if (!data) {
-        setCategory(null);
+      const slug = Array.isArray(params.category) ? params.category[0] : params.category;
+      if (!slug) {
+        setCategoryName(null);
         setDishes([]);
         setLoading(false);
         return;
       }
 
-      setCategory({ _id: data._id, name: data.name, slug: params.category });
-      setDishes(data.products || []);
+      // 1️⃣ Fetch category name
+      const categoryData = await client.fetch(
+        `*[_type == "category" && slug.current == $slug][0]{ name }`,
+        { slug }
+      );
+      setCategoryName(categoryData?.name || null);
+
+      // 2️⃣ Fetch menu items for that category
+      const menuData: MenuItem[] = await client.fetch(
+        `*[_type == "menuItem" && category._ref in *[_type=="category" && slug.current==$slug]._id]{
+          _id,
+          name,
+          description,
+          price,
+          image,
+          sizes,
+          category
+        }`,
+        { slug }
+      );
+      setDishes(menuData || []);
+
       setLoading(false);
     }
 
@@ -71,13 +70,15 @@ export default function Page() {
   }, [params.category]);
 
   if (loading) return <p>Loading...</p>;
-  if (!category) return <p>Category not found</p>;
+  if (!categoryName) return <p>Category not found</p>;
 
   return (
     <main>
       <section className={styles.hero}>
         <div className={clsx(styles.container, 'container')}>
-          <h2 className={styles.categoryName}>{category.name[locale]}</h2>
+          {/* Display localized category name */}
+          <h2 className={styles.categoryName}>{categoryName[locale]}</h2>
+
           <div className={styles.grid}>
             {dishes.map((dish) => (
               <Card key={dish._id} dish={dish} />
