@@ -3,6 +3,7 @@ import styles from './index.module.css';
 import { MenuItem } from '@/types/menu';
 import { useLocale } from 'next-intl';
 import { Locales } from '@/types/locales';
+import { urlFor } from '@/lib/sanityImage';
 
 interface Props {
   dish: MenuItem;
@@ -14,7 +15,13 @@ export default function Card({ dish }: Props) {
   return (
     <article className={styles.card}>
       <figure className={styles.media}>
-        <Image className={styles.mediaImage} src={dish.image} alt={dish.name[locale]} fill />
+        <Image
+          className={styles.mediaImage}
+          loader={({ src, width, quality }) => `${urlFor(dish.image).url()}?w=${width}&q=${quality || 75}`}
+          src={urlFor(dish.image).url()}
+          alt={dish.name[locale]}
+          fill
+        />
       </figure>
 
       <section className={styles.details}>

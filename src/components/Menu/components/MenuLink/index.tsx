@@ -13,8 +13,6 @@ export default function MenuLink({ category }: Props) {
   const pathname = usePathname();
   const { toggleMenu } = useMenu();
 
-  console.log(pathname, category.href);
-
   return (
     <Link className={styles.link} href={category.href} onClick={toggleMenu}>
       {pathname === category.href && <span className={styles.pathname}>X</span>}

@@ -6,11 +6,11 @@ import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import MenuLink from './components/MenuLink';
 import styles from './index.module.css';
-import { Locales } from '@/types/locales';
-import { categoryNames } from '@/data/categories';
 import { useGSAP } from '@gsap/react';
 import { gsap } from '@/lib/gsap';
 import { useLenis } from 'lenis/react';
+import { useEffect, useState } from 'react';
+import { client } from '@/lib/sanityClient';
 
 const InstagramIcon = () => (
   <svg width="19" height="19" viewBox="0 0 19 19" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -20,12 +20,35 @@ const InstagramIcon = () => (
   </svg>
 );
 
+type Category = {
+  _id: string;
+  name: Record<string, string>;
+  slug?: string;
+};
+
 export default function Menu() {
   const menuRef = useRef<HTMLDivElement>(null);
   const { isMenuOpen } = useMenu();
-  const locale = useLocale() as Locales;
-
+  const locale = useLocale();
   const lenis = useLenis();
+
+  const [categories, setCategories] = useState<Category[]>([]);
+
+  // Fetch categories from Sanity on mount
+  useEffect(() => {
+    async function fetchCategories() {
+      const data: Category[] = await client.fetch(`
+      *[_type == "category"] | order(order asc){
+        _id,
+        name,
+        "slug": slug.current,
+        order
+      }
+    `);
+      setCategories(data);
+    }
+    fetchCategories();
+  }, []);
 
   useGSAP(() => {
     if (isMenuOpen) {
@@ -45,17 +68,17 @@ export default function Menu() {
     }
   }, [isMenuOpen]);
 
-  const categories = Object.keys(categoryNames).map((categoryKey) => ({
-    href: `/${categoryKey}`,
-    name: categoryNames[categoryKey][locale],
-  }));
-
   return (
     <aside className={styles.menu} ref={menuRef}>
       <ul className={styles.links}>
-        {categories.map((category, index) => (
-          <li className={styles.clip} key={index}>
-            <MenuLink category={category} />
+        {categories.map((category) => (
+          <li className={styles.clip} key={category._id}>
+            <MenuLink
+              category={{
+                href: `/${category.slug || category._id}`,
+                name: category.name[locale as keyof typeof category.name] || category.name.en,
+              }}
+            />
           </li>
         ))}
       </ul>
