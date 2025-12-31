@@ -25,18 +25,16 @@ export default function Menu() {
   const { isMenuOpen } = useMenu();
   const locale = useLocale() as Locales;
 
-  const lenis = useLenis();
-
   useGSAP(() => {
     if (isMenuOpen) {
-      lenis?.stop();
+      document.body.style.overflow = 'hidden';
       gsap.to(menuRef.current, {
         clipPath: 'inset(0% 0% 0% 0%)',
         duration: 0.5,
         ease: '0.4, 0, 0.2, 1',
       });
     } else {
-      lenis?.start();
+      document.body.style.overflow = '';
       gsap.to(menuRef.current, {
         clipPath: 'inset(0% 0% 100% 0%)',
         duration: 0.5,
@@ -74,7 +72,6 @@ export default function Menu() {
   );
 }
 
-// Social Media Data
 const socials = [
   {
     label: 'Instagram',

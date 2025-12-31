@@ -1,0 +1,191 @@
+import { MenuItem } from '@/types/menu';
+
+export const STARTERS: MenuItem[] = [
+  {
+    category: 'starters',
+    name: {
+      en: 'Moroccan Soup (Harira)',
+      fr: 'Soupe Marocaine (Harira)',
+      es: 'Sopa Marroquí (Harira)',
+      it: 'Zuppa Marocchina (Harira)',
+    },
+    description: {
+      en: 'Traditional harira made with tomatoes, lentils, and spices.',
+      fr: 'Harira traditionnelle à base de tomates, lentilles et épices.',
+      es: 'Harira tradicional con tomates, lentejas y especias.',
+      it: 'Harira tradizionale con pomodori, lenticchie e spezie.',
+    },
+    image: '/images/menu/starters/moroccan-soup-harira.jpg',
+    price: 60,
+  },
+  {
+    category: 'starters',
+    name: {
+      en: 'Tabbouleh',
+      fr: 'Taboulé',
+      es: 'Tabulé',
+      it: 'Tabulè',
+    },
+    description: {
+      en: 'Fresh salad with parsley, bulgur, lemon, and olive oil.',
+      fr: 'Salade fraîche au persil, boulgour, citron et huile d’olive.',
+      es: 'Ensalada fresca con perejil, bulgur, limón y aceite de oliva.',
+      it: "Insalata fresca con prezzemolo, bulgur, limone e olio d'oliva.",
+    },
+    image: '/images/menu/starters/tabbouleh.jpg',
+    price: 70,
+  },
+  {
+    category: 'starters',
+    name: {
+      en: 'Taktouka Salad',
+      fr: 'Salade Taktouka',
+      es: 'Ensalada Taktouka',
+      it: 'Insalata Taktouka',
+    },
+    description: {
+      en: 'Moroccan salad made with grilled peppers, tomatoes, and garlic.',
+      fr: 'Salade marocaine à base de poivrons grillés, tomates et ail.',
+      es: 'Ensalada marroquí con pimientos asados, tomates y ajo.',
+      it: 'Insalata marocchina con peperoni grigliati, pomodori e aglio.',
+    },
+    image: '/images/menu/starters/taktouka-salad.jpg',
+    price: 70,
+  },
+  {
+    category: 'starters',
+    name: {
+      en: 'Caesar Salad',
+      fr: 'Salade César',
+      es: 'Ensalada César',
+      it: 'Insalata Caesar',
+    },
+    description: {
+      en: 'Crispy lettuce, parmesan, croutons, and Caesar dressing.',
+      fr: 'Laitue croquante, parmesan, croûtons et sauce César.',
+      es: 'Lechuga crujiente, parmesano, picatostes y salsa César.',
+      it: 'Lattuga croccante, parmigiano, crostini e salsa Caesar.',
+    },
+    image: '/images/menu/starters/caesar-salad.jpg',
+    price: 75,
+  },
+  {
+    category: 'starters',
+    name: {
+      en: 'Niçoise Salad',
+      fr: 'Salade Niçoise',
+      es: 'Ensalada Niçoise',
+      it: 'Insalata Nizzarda',
+    },
+    description: {
+      en: 'Classic salad with tuna, eggs, potatoes, and olives.',
+      fr: 'Salade classique au thon, œufs, pommes de terre et olives.',
+      es: 'Ensalada clásica con atún, huevos, patatas y aceitunas.',
+      it: 'Insalata classica con tonno, uova, patate e olive.',
+    },
+    image: '/images/menu/starters/niçoise-salad.jpg',
+    price: 75,
+  },
+  {
+    category: 'starters',
+    name: {
+      en: 'Pil-Pil Shrimp',
+      fr: 'Crevettes Pil-Pil',
+      es: 'Gambas al Pil-Pil',
+      it: 'Gamberi Pil-Pil',
+    },
+    description: {
+      en: 'Sautéed shrimp with garlic, chili, and olive oil.',
+      fr: 'Crevettes sautées à l’ail, piment et huile d’olive.',
+      es: 'Gambas salteadas con ajo, chile y aceite de oliva.',
+      it: "Gamberi saltati con aglio, peperoncino e olio d'oliva.",
+    },
+    image: '/images/menu/starters/pil-pil-shrimp.jpg',
+    price: 90,
+  },
+  {
+    category: 'starters',
+    name: {
+      en: 'Tomato Mozzarella',
+      fr: 'Tomate Mozzarella',
+      es: 'Tomate y Mozzarella',
+      it: 'Pomodoro e Mozzarella',
+    },
+    description: {
+      en: 'Fresh tomato and mozzarella with basil and olive oil.',
+      fr: 'Tomate et mozzarella fraîches avec basilic et huile d’olive.',
+      es: 'Tomate y mozzarella frescas con albahaca y aceite de oliva.',
+      it: "Pomodoro fresco e mozzarella con basilico e olio d'oliva.",
+    },
+    image: '/images/menu/starters/tomato-mozzarella.jpeg',
+    price: 80,
+  },
+  {
+    category: 'starters',
+    name: {
+      en: 'Vigneronne Salad (Specialty)',
+      fr: 'Salade Vigneronne (Spécialité)',
+      es: 'Ensalada Vigneronne (Especialidad)',
+      it: 'Insalata Vigneronne (Specialità)',
+    },
+    description: {
+      en: 'House salad with a light vinaigrette and fruity flavors.',
+      fr: 'Salade maison avec vinaigrette légère et notes fruitées.',
+      es: 'Ensalada de la casa con vinagreta suave y sabores afrutados.',
+      it: 'Insalata della casa con vinaigrette leggera e note fruttate.',
+    },
+    image: '/images/menu/starters/vigneronne-salad-specialty.jpg',
+    price: 110,
+  },
+  {
+    category: 'starters',
+    name: {
+      en: 'Avocado Shrimp Salad',
+      fr: 'Salade d’Avocat et Crevettes',
+      es: 'Ensalada de Aguacate y Camarones',
+      it: 'Insalata con Avocado e Gamberi',
+    },
+    description: {
+      en: 'Creamy avocado served with fresh shrimp.',
+      fr: 'Avocat crémeux servi avec des crevettes fraîches.',
+      es: 'Aguacate cremoso servido con camarones frescos.',
+      it: 'Avocado cremoso servito con gamberi freschi.',
+    },
+    image: '/images/menu/starters/avocado-shrimp-salad.jpg',
+    price: 110,
+  },
+  {
+    category: 'starters',
+    name: {
+      en: 'Beef Salad',
+      fr: 'Salade de Bœuf',
+      es: 'Ensalada de Ternera',
+      it: 'Insalata di Manzo',
+    },
+    description: {
+      en: 'House specialty with honey vinaigrette.',
+      fr: 'Spécialité maison avec vinaigrette au miel.',
+      es: 'Especialidad de la casa con vinagreta de miel.',
+      it: 'Specialità della casa con vinaigrette al miele.',
+    },
+    image: '/images/menu/starters/beef-salad.webp',
+    price: 120,
+  },
+  {
+    category: 'starters',
+    name: {
+      en: 'Smoked Salmon Salad',
+      fr: 'Salade au Saumon Fumé',
+      es: 'Ensalada de Salmón Ahumado',
+      it: 'Insalata con Salmone Affumicato',
+    },
+    description: {
+      en: 'Salad topped with slices of smoked salmon.',
+      fr: 'Salade garnie de tranches de saumon fumé.',
+      es: 'Ensalada con láminas de salmón ahumado.',
+      it: 'Insalata con fette di salmone affumicato.',
+    },
+    image: '/images/menu/starters/smoked-salmon-salad.jpg',
+    price: 120,
+  },
+];

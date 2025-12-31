@@ -27,7 +27,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   }
 
   return (
-    <html lang="en">
+    <html lang="en" data-scroll-behavior="smooth">
       <body>
         <NextIntlClientProvider>
           <Lenis>
